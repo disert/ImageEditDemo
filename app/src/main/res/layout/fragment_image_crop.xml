@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#aa000000"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/fragment_crop_square"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/fragment_crop_square_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/crop_square_selector" />
+
+        <TextView
+            android:id="@+id/fragment_crop_square_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="正方形"
+            android:singleLine="true"
+            android:textColor="@drawable/image_editor_tag_selector"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragment_crop_rotate"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/fragment_crop_rotate_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/rotate_icon" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/fragment_crop_rotate_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="旋转"
+            android:singleLine="true"
+            android:textColor="@drawable/image_editor_tag_selector"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragment_crop_rect"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/fragment_crop_rect_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/crop_rect_selector" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/fragment_crop_rect_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="长方形"
+            android:singleLine="true"
+            android:textColor="@drawable/image_editor_tag_selector"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

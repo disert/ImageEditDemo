@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- 顶部标题栏 -->
+    <style name="top_titile_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">#FF5577</item>
+    </style>
+    <!-- 顶部标题栏  button -->
+    <style name="top_title_button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <!-- 顶部标题栏  TextView -->
+    <style name="top_title_text">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19sp</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+    </style>
+
+    <style name="top_title_button_rgiht">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="image_edit_layout_style1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="image_edit_tag_style1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@drawable/image_editor_tag_selector</item>
+    </style>
+
+    <style name="image_edit_layout_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

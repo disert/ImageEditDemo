@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_edit_fragment_item_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp" >
+
+    <ImageView
+        android:id="@+id/image_edit_fragment_item_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:padding="2dp"
+        android:background="@drawable/sticker_item_selector"
+        android:src="@mipmap/place_default" />
+
+    <TextView
+        android:id="@+id/image_edit_fragment_item_title"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我要上首页"
+        android:singleLine="true"
+        android:textColor="@drawable/image_editor_tag_selector1"
+        android:textSize="15sp" />
+
+</LinearLayout>
